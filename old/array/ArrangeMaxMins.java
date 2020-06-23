@@ -33,6 +33,13 @@ public static void main(String [] args){
 		return result;
 
 	}
+
+
+	public void deleteAtHead(){
+		if(isEmpty()){
+			return;
+		}
+	}
 }
 
 // 1, 2, 3, 4, 5
