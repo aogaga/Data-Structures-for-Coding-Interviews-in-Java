@@ -154,4 +154,26 @@ class SinglyLinkedList<T>{
 
 
 
+ 	public  void  removeDuplicatesv2(){
+		Node current = headNode;
+		Node temp = null;
+		
+		while(current != null){
+		
+		temp = current;
+		while(temp != null){
+			if(temp.nextNode.data.equals(current.data)){
+				temp.nextNode = temp.nextNode.nextNode;
+			}
+				temp = temp.nextNode;
+			
+
+		}	
+
+	
+		current = current.nextNode;
+		}
+
+
+	}
 }
