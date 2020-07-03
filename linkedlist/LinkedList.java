@@ -1,4 +1,6 @@
-class LinkedList{
+package linkedlist;
+
+class LinkedList<T>{
 
 	public class Node{
 		public T data;
@@ -9,7 +11,7 @@ class LinkedList{
 	public Node headNode;
 	public int size;
 
-	public SinglyLinkedList(){
+	public LinkedList(){
 		headNode = null;
 		size = 0;
 	}

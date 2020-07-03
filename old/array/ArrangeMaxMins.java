@@ -1,3 +1,5 @@
+package old.array;
+
 class ArrangeMaxMins{
 
 public static void main(String [] args){
@@ -36,9 +38,9 @@ public static void main(String [] args){
 
 
 	public void deleteAtHead(){
-		if(isEmpty()){
-			return;
-		}
+//		if(isEmpty()){
+//			return;
+//		}
 	}
 }
 

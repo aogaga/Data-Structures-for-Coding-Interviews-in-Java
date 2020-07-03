@@ -1,6 +1,8 @@
 class RotateByN{
 
 		public static void main(String [] args){
+
+			System.out.println("In".length());
 			int [] arr = new int[]{1, 2, 3, 4, 5};
 			rotate(arr);
 			

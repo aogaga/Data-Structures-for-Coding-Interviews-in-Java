@@ -1,3 +1,5 @@
+package linkedlist;
+
 class CheckLength{
 		public static void main(String [] args){
     		SinglyLinkedList<String> list = new SinglyLinkedList<String>();

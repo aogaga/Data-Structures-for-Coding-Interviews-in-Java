@@ -1,3 +1,5 @@
+package old;
+
 class ConvertToBinary{
 	public static void main(String [] args){
 
@@ -8,6 +10,7 @@ class ConvertToBinary{
 		if(n < 2){
 			return n;
 		}
+		return 1;
 	}
 
 

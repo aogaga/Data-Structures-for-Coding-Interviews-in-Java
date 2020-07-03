@@ -1,3 +1,5 @@
+package linkedl;
+
 class LinkedListQuestion{
 	
 public static void main( String args[] ) {

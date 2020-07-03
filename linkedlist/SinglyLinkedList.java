@@ -1,3 +1,4 @@
+package linkedlist;
 class SinglyLinkedList<T>{
 
 		public class Node{
@@ -40,7 +41,7 @@ class SinglyLinkedList<T>{
 				System.out.println("List: ");
 
 				while(temp.nextNode != null){
-					System.out.println(temp.data.toString() + " -> ");
+					System.out.print(temp.data.toString() + " -> ");
 					temp = temp.nextNode;
 				}	
 

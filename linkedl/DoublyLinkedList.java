@@ -1,3 +1,5 @@
+package linkedl;
+
 class  DoublyLinkedList<T>{
 
 	public class Node {
@@ -55,7 +57,7 @@ class  DoublyLinkedList<T>{
 	public void insertAtHead(T data){
 		Node newNode = new Node();
 		newNode.data = data;
-		newNode.nextNode = null
+		newNode.nextNode = null;
 		newNode.nextNode = this.headNode;
 
 		if(headNode != null){
@@ -91,7 +93,7 @@ class  DoublyLinkedList<T>{
 		Node newNode = new Node();
 		newNode.data = data;
 		newNode.prevNode = tailNode;
-		tailNode.nextNode = nextNode;
+		tailNode.nextNode = newNode;
 		tailNode = newNode;
 		size++;
 	}

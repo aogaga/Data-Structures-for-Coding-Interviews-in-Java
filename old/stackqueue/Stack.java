@@ -1,3 +1,5 @@
+package old.stackqueue;
+
 class Stack<V> {
 
   public int maxSize;
@@ -45,7 +47,7 @@ class Stack<V> {
   
   
   public V pop(){
-    if(isEmpy()){
+    if(this.isEmpty()){
       return null;
     }
     return arr[top--];

@@ -1,3 +1,5 @@
+package linkedlist;
+
 class CheckMid{
  public static void main(String [] args){
 		SinglyLinkedList<Integer> list = new SinglyLinkedList<Integer>();

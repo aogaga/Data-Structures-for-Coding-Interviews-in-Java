@@ -1,3 +1,5 @@
+package linkedl;
+
 class SinglyLinkedList<T>{
 
 	public class Node {
@@ -162,8 +164,8 @@ class SinglyLinkedList<T>{
 		return count;
 	}
 
-
-	public Static void reverse(SinglyLinkedList<T> list){
+ /**
+	public static void reverse(SinglyLinkedList<T> list){
 		
 		Node previous = null;
 		Node currrent = list.headNode;
@@ -200,10 +202,12 @@ class SinglyLinkedList<T>{
 
 		}
 
-
-	public static <T> boolean detectLoop(SinglyLinkedList<T> list){}
+ ***/
+	public static <T> boolean detectLoop(SinglyLinkedList<T> list){
+		return true;
+	}
 	
 }
 
 
-1->2->3->4->5
+//1->2->3->4->5

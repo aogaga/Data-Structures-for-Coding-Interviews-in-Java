@@ -1,3 +1,5 @@
+package old.stackqueue;
+
 public class Queue<V> {
 
 	private int maxSize;
@@ -10,7 +12,7 @@ public class Queue<V> {
 	@SuppressWarnings("unchecked")
 	private Queue(int maxSize){
 		this.maxSize = maxSize;
-		array v = (V[]) new Object[maxSize];
+		array  = (V[]) new Object[maxSize];
 		front  = 0;
 		back = -1;
 		currentSize = 0;
@@ -26,11 +28,11 @@ public class Queue<V> {
 	}
 
 	public boolean isEmpty(){
-		return currentSize = 0;
+		return currentSize == 0;
 	}
 
 	public boolean isFull(){
-		return currentSize = maxSize;
+		return currentSize == maxSize;
 	}
 
 	public V top(){

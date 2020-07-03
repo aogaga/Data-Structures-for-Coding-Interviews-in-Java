@@ -9,7 +9,7 @@ class ConvertToBinary{
 			return n;
 		}
 
-		return 
+		return   0;
 	}
 
 
