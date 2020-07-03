@@ -30,7 +30,6 @@ class SinglyLinkedList<T>{
 			size++;
 		}
 
-
 		public void printList(){
 				if(isEmpty()){
 					System.out.println("List is Empty");
@@ -49,8 +48,7 @@ class SinglyLinkedList<T>{
 
 		}
 
-
-	public void insertAtEnd(T data) {
+		public void insertAtEnd(T data) {
 		
 		Node newNode = new Node();
 		newNode.data = data;
@@ -73,7 +71,7 @@ class SinglyLinkedList<T>{
 
 	}	
 
-	public void insertAfter(T data, T previous){
+		public void insertAfter(T data, T previous){
 			Node newNode = new Node();
 			newNode.data = data;
 
@@ -94,8 +92,7 @@ class SinglyLinkedList<T>{
 			}
 	}
 
-
-	public boolean searchNode(T data){
+		public boolean searchNode(T data){
 		
 		Node tempNode = headNode;
 
@@ -109,7 +106,7 @@ class SinglyLinkedList<T>{
 		return false;
 	}
 
-   public void deleteAtHead() {
+   		public void deleteAtHead() {
 			if(headNode == null){
 				return;				
 			}
@@ -118,8 +115,7 @@ class SinglyLinkedList<T>{
 
 	 }
 
-
-	public void deleteByValue(T data){
+		public void deleteByValue(T data){
 		
 		Node tempNode = headNode;
 		if(headNode.data.equals(data)){
@@ -138,9 +134,8 @@ class SinglyLinkedList<T>{
 
 		}
 	}
-
 	
-	public int length(){
+		public int length(){
 		Node temp = headNode;
 		int counter = 0;
 
@@ -152,10 +147,7 @@ class SinglyLinkedList<T>{
 		return counter;
 	}
 
-
-
-
- 	public  void  removeDuplicatesv2(){
+ 		public  void  removeDuplicatesv2(){
 		Node current = headNode;
 		Node temp = null;
 		
