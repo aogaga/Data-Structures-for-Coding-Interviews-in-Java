@@ -20,21 +20,22 @@ class PalindromeChallange{
 	}
 
 
-	public static <T> boolean isPalindrom(DoublyLinkedList<T> list){
+	public static <T> boolean isPalindrome(DoublyLinkedList<T> list){
 	 	DoublyLinkedList<T>.Node start = list.headNode;
-		DoublyLinkedList<T>.Node end = list.endNode;
-		
-		if(start != end ){
-			return false;
-		}
+		DoublyLinkedList<T>.Node end = list.tailNode;
+//	System.out.println(start.data + " / " + end.data);
 
-		if(start == null){
-			return true;
-		}
+	if(!start.data.equals(end.data)){
+		return false;
+	}
+
+	if(start == null){
+		return true;
+	}
 
 		while(start != null ){
-			
-			if(!start.data.equals(end.data)){
+//		System.out.println(start.data + " / " + end.data);				
+			if(!(start.data.equals(end.data))){
 				return false;
 			}
 			
