@@ -54,4 +54,9 @@ public class Stack <V> {
         return array[top--]; //returns value and top and decrements the top
     }
 
+
+	public int size(){
+		return array.length;
+	}
+
 }
