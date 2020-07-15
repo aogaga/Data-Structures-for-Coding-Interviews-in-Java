@@ -1,0 +1,17 @@
+{
+	"color_scheme": "Packages/User/colour-schemes/Espresso Soda.tmTheme",
+	"font_face": "Operator Mono Medium",
+	"font_options":
+	[
+		"gray_antialias",
+		"subpixel_antialias",
+		"directwrite"
+	],
+	"font_size": 16,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"soda_folder_icons": true,
+	"theme": "Soda Light 3.sublime-theme"
+}
